@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres para el documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista para dispositivos móviles -->
+    <link rel="stylesheet" href="./styles/styles_form.css"> <!-- Enlaza el archivo CSS externo -->
+    <title>formulario</title> <!-- Título del documento -->
+</head>
+<body>
+    <header>
+        <h1>FORMULARIOS</h1> <!-- Encabezado principal -->
+    </header>
+
+    <main class="main">
+        <nav class="nav">
+            <a href="index.html" class="boton">Inicio</a> <!-- Enlace a la página de inicio -->
+            <a href="flexes.html" class="boton">Flex</a> <!-- Enlace a la página de Flex -->
+            <a href="formularios.html" class="boton">Formularios</a> <!-- Enlace a la página de Formularios -->
+            <a href="animacion.html" class="boton">Animación</a> <!-- Enlace a la página de Animación -->
+        </nav>
+    
+        <section class="form-contenido">
+            <article class="privacy-notice">
+                <h3>Política de Privacidad</h3> <!-- Subtítulo de la política de privacidad -->
+                <p>
+                    acepto todos los terminos de uso que exsten en este pais donde reside el servidor el cual es portugal, si desea consultarlos ve a la pagina oficial del estado
+                </p> <!-- Descripción de la política de privacidad -->
+                <label>
+                    <input type="checkbox" required> <!-- Casilla de verificación para aceptar la política de privacidad -->
+                    He leído y acepto la política de privacidad
+                </label>
+            </article>
+            <!-- Primer formulario -->
+            <section class="formularios">
+                <form class="form-personal">
+                    <h3>Datos Personales</h3> <!-- Subtítulo de los datos personales -->
+                    <label for="Nombre"></label><input type="text" placeholder="Nombre" pattern="([A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+(\s(de|la|el|y)\s[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+)*|\s*[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+(\s[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+)*)+" required class="personal"><br> <!-- Campo de texto para el nombre -->
+                    <label for="Nombre"></label><input type="text" placeholder="Apellidos" pattern="([A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+(\s(de|la|el|y)\s[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+)*|\s*[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+(\s[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+)*)+" required class="personal"><br> <!-- Campo de texto para los apellidos -->
+                    <label for="Nombre"></label><input type="text" placeholder="Dirección" pattern="[A-Za-z0-9\s,.#-]+" required class="personal"><br> <!-- Campo de texto para la dirección -->
+                    <label for="Nombre"></label><input type="tel" placeholder="Teléfono" pattern="[0-9]{9}" required class="personal"><br> <!-- Campo de texto para el teléfono -->
+                    <label for="Nombre"></label><input type="text" placeholder="Código Postal" pattern="[0-9]{5}" required class="personal"><br> <!-- Campo de texto para el código postal -->
+                    <label for="Nombre"></label><input type="text" placeholder="Ciudad" pattern="([A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+(\s(de|la|el|y)\s[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+)*|\s*[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+(\s[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+)*)+" required class="personal"><br> <!-- Campo de texto para la ciudad -->
+                    <label for="Nombre"></label><input type="text" placeholder="País" pattern="[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ\s]{1,49}" required class="personal"><br> <!-- Campo de texto para el país -->
+                    <label for="Nombre"></label><input type="email" placeholder="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}" required class="personal"><br> <!-- Campo de texto para el email -->
+                    <label for="Nombre"></label><input type="text" placeholder="IBAN" pattern="ES[0-9]{22}" required class="personal"><br> <!-- Campo de texto para el IBAN -->
+                </form>
+                <!-- Segundo formulario -->
+                <form class="form-hobbies">
+                    <h3>Aficiones</h3> <!-- Subtítulo de las aficiones -->
+                    <section>
+                        <label><input type="checkbox" name="hobby" value="deportes"> Deportes</label><br> <!-- Opción de afición: deportes -->
+                        <label><input type="checkbox" name="hobby" value="lectura"> Lectura</label><br> <!-- Opción de afición: lectura -->
+                        <label><input type="checkbox" name="hobby" value="musica"> Música</label><br> <!-- Opción de afición: música -->
+                        <label><input type="checkbox" name="hobby" value="viajes"> Viajes</label><br> <!-- Opción de afición: viajes -->
+                        <label><input type="checkbox" name="hobby" value="tecnologia"> Tecnología</label><br> <!-- Opción de afición: tecnología -->
+                    </section>
+                </form>
+                <!-- Formulario 3: Gustos Personales -->
+                <form class="preferencias">
+                    <h3>Gustos Personales</h3> <!-- Subtítulo de los gustos personales -->
+                    <section>
+                        <p>Color favorito:</p> <!-- Pregunta sobre el color favorito -->
+                        <label><input type="radio" name="color" value="azul"> Azul</label><br> <!-- Opción de color favorito: azul -->
+                        <label><input type="radio" name="color" value="rojo"> Rojo</label><br> <!-- Opción de color favorito: rojo -->
+                        <label><input type="radio" name="color" value="verde"> Verde</label><br> <!-- Opción de color favorito: verde -->
+                    </section>
+                    <section>
+                        <p>Estación favorita:</p> <!-- Pregunta sobre la estación favorita -->
+                        <label><input type="radio" name="season" value="primavera"> Primavera</label><br> <!-- Opción de estación favorita: primavera -->
+                        <label><input type="radio" name="season" value="verano"> Verano</label><br> <!-- Opción de estación favorita: verano -->
+                        <label><input type="radio" name="season" value="otoño"> Otoño</label><br> <!-- Opción de estación favorita: otoño -->
+                        <label><input type="radio" name="season" value="invierno"> Invierno</label><br> <!-- Opción de estación favorita: invierno -->
+                    </section>
+                </form>
+                <!-- Formulario 4: Sugerencias -->
+                <form class="sugerencias">
+                    <h3>Sugerencias</h3> <!-- Subtítulo de las sugerencias -->
+                    <textarea placeholder="Escribe tus sugerencias aquí..." rows="5"></textarea> <!-- Área de texto para sugerencias -->
+
+                    <article id="enviar">
+                        <button type="submit" class="submited">Enviar Todos los Formularios</button> <!-- Botón para enviar todos los formularios -->
+                    </article>
+                </form>
+            </section>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Todos los derechos reservados.</p> <!-- Pie de página -->
+    </footer>
+</body>
+</html>

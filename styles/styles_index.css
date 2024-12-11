@@ -1,0 +1,118 @@
+:root{
+    /* Definición de colores como variables para uso en todo el documento */
+    --color-soft-red: #FF6F61;
+    --color-crimson: #DC143C;
+    --color-ruby-red: #9B111E;
+    --color-sky-blue: #87CEEB;
+    --color-royal-blue: #4169E1;
+    --color-navy-blue: #000080;
+    --color-soft-blue: #6495ED;
+    --color-azul-boton: #4682b4; 
+}
+
+*{
+    /* Estilos globales para todos los elementos */
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: static;
+}
+
+header > img{
+    /* Estilo para las imágenes dentro del header */
+    border-radius: 100vh;
+}
+
+.main{
+    /* Estilos para el contenedor principal */
+    background-color: blueviolet;
+    display: flex;
+}
+
+header{
+    /* Estilos para el encabezado */
+    background-color: var(--color-navy-blue);
+    font-size: 35px;
+    color: white;
+    display: flex;
+    text-align: center;
+    text-justify: center;
+    height: 15vh;
+    justify-content: space-between;
+}
+
+header > h1{
+    /* Estilos para el título dentro del header */
+    width: 90vw;
+    display: flex;
+    margin-left: 45vw;
+    align-items: center;
+}
+
+#medio{
+    /* Estilos para la sección #medio */
+    background-color: var(--color-soft-blue);
+    text-align: center;
+    width: 88vw;
+    height: 80vh;
+    display: flex;
+    padding-left: 5vh;
+}
+
+#bubble{
+    /* Estilos para los elementos con id bubble */
+    padding: 1vh;
+    background-color: var(--color-royal-blue);
+    border-radius: 1vh;
+}
+
+#futuro{
+    /* Estilos para los elementos con id futuro */
+    font-size: medium;
+    text-align: left;
+    padding-top: 30vh;
+    padding-left: 15vh;
+}
+
+.nav{
+    /* Estilos para la barra de navegación */
+    width: 10.1vw;
+    height: 76vh;
+    background-color: var(--color-sky-blue);
+    text-align: center;
+    text-justify: auto;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.boton {
+    /* Estilos para los botones de navegación */
+    padding: 1vh;
+    border: none;
+    background-color: var(--color-azul-boton);
+    color: white;
+    border-radius: 0.5vh;
+    cursor: pointer;
+    font-size: 2vh;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+img{
+    /* Estilos para todas las imágenes */
+    height: 73.68vh;
+}
+
+footer{
+    /* Estilos del pie de página */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-navy-blue);
+    color: white;
+    height: 5vh;
+}
+

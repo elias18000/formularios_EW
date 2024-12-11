@@ -1,0 +1,205 @@
+:root {
+    /* Definición de colores como variables para uso en todo el documento */
+    --color-soft-red: #FF6F61;
+    --color-crimson: #DC143C;
+    --color-ruby-red: #9B111E;
+    --color-sky-blue: #87CEEB;
+    --color-royal-blue: #4169E1;
+    --color-navy-blue: #000080;
+    --color-soft-blue: #6495ED;
+    --color-azul-boton: #4682b4;
+}
+
+* {
+    /* Estilos globales para todos los elementos */
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: static;
+}
+
+header > img {
+    /* Estilo para las imágenes dentro del header */
+    border-radius: 100vh;
+}
+
+.main {
+    /* Estilos para el contenedor principal */
+    background-color: var(--color-soft-blue);
+    display: flex;
+}
+
+header {
+    /* Estilos para el encabezado */
+    background-color: var(--color-navy-blue);
+    font-size: 35px;
+    color: white;
+    display: flex;
+    text-align: center;
+    text-justify: center;
+    height: 15vh;
+    justify-content: space-between;
+}
+
+header > h1 {
+    /* Estilos para el título dentro del header */
+    width: 90vw;
+    display: flex;
+    margin-left: 45vw;
+    align-items: center;
+}
+
+#medio {
+    /* Estilos para la sección #medio */
+    background-color: var(--color-soft-blue);
+    text-align: center;
+    font-size: 35px;
+    width: 88vw;
+    height: 80vh;
+}
+
+headeh1 {
+    /* Estilos incorrectos de título en header */
+    width: 90vw;
+    display: flex;
+    margin-left: 45vw;
+    align-items: center;
+}
+
+.nav {
+    /* Estilos para la barra de navegación */
+    width: 9.85vw;
+    height: 76vh;
+    background-color: var(--color-sky-blue);
+    text-align: center;
+    text-justify: auto;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.boton {
+    /* Estilos para los botones de navegación */
+    padding: 1vh;
+    border: none;
+    background-color: var(--color-azul-boton);
+    color: white;
+    border-radius: 0.5vh;
+    cursor: pointer;
+    font-size: 2vh;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Modifica los estilos de todos los formularios */
+.form-contenido {
+    padding: 2vw;
+    border-radius: 8px;
+}
+
+/* Modifica los estilos del aviso de privacidad */
+.privacy-notice {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+/* Modifica los estilos del label del aviso de privacidad */
+.privacy-notice label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+/* Ajustar las referencias globales de div a section */
+form {
+    padding: 2vh;
+    border-radius: 8px;
+}
+
+/* Estilos del botón enviar */
+#enviar {
+    display: flex;
+    padding-top: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.submited {
+    /* Estilos del botón enviado */
+    width: 15vh;
+    background-color: #DC143C;
+    font-weight: bold;
+    border-radius: 8vh;
+}
+
+/* Estilos de términos y condiciones */
+.form-contenido {
+    width: 80vw;
+}
+
+/* Estilos generales de todos los formularios */
+.formularios {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos de hobbies */
+.form-hobbies {
+    background-color: var(--color-royal-blue);
+    width: 15vw;
+}
+
+/* Estilos preferencias */
+.preferencias {
+    background-color: var(--color-royal-blue);
+    width: 15vw;
+}
+
+/* Estilos sugerencias */
+.sugerencias {
+    width: 15vw;
+    text-align: center;
+    background-color: var(--color-royal-blue);
+}
+
+/* Estilos del área de texto */
+textarea {
+    width: 15vw;
+}
+
+/* Estilos parte personal */
+.form-personal {
+    padding-left: 5vh;
+    width: 20vh;
+    background-color: var(--color-royal-blue);
+}
+
+/* Estilos para inputs personales */
+.personal {
+    display: flex;
+    justify-content: space-between;
+}
+
+input:invalid {
+    border: 2px solid red; /* Destaca los campos inválidos */
+}
+
+input:valid {
+    border: 2px solid green; /* Destaca los campos válidos */
+}
+
+/* Estilos del footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-navy-blue);
+    color: white;
+    height: 5vh;
+}

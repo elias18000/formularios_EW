@@ -1,0 +1,153 @@
+:root{
+    /* Definición de colores como variables para uso en todo el documento */
+    --color-soft-red: #FF6F61;
+    --color-crimson: #DC143C;
+    --color-ruby-red: #9B111E;
+    --color-sky-blue: #87CEEB;
+    --color-royal-blue: #4169E1;
+    --color-navy-blue: #000080;
+    --color-soft-blue: #6495ED;
+    --color-azul-boton: #4682b4;
+    --color-steel-blue: #4682B4;
+}
+
+*{
+    /* Estilos globales para todos los elementos */
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: static;
+}
+
+body{
+    /* Estilo de fondo del cuerpo del documento */
+    background-color: aliceblue;
+}
+
+header > img{
+    /* Estilo para las imágenes dentro del header */
+    border-radius: 100vh;
+}
+
+.main{
+    /* Estilos para el contenedor principal */
+    display: flex;
+}
+
+header{
+    /* Estilos para el encabezado */
+    background-color: var(--color-navy-blue);
+    font-size: 35px;
+    color: white;
+    display: flex;
+    text-align: center;
+    text-justify: center;
+    height: 15vh;
+    justify-content: space-between;
+}
+
+header > h1{
+    /* Estilos para el título dentro del header */
+    width: 90vw;
+    display: flex;
+    margin-left: 45vw;
+    align-items: center;
+}
+
+.nav{
+    /* Estilos para la barra de navegación */
+    width: 10vw;
+    height: 76vh;
+    background-color: var(--color-sky-blue);
+    text-align: center;
+    text-justify: auto;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.boton {
+    /* Estilos para los botones de navegación */
+    padding: 1vh;
+    border: none;
+    background-color: var(--color-azul-boton);
+    color: white;
+    border-radius: 0.5vh;
+    cursor: pointer;
+    font-size: 2vh;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+#secciones{
+    /* Estilos para la sección de contenido */
+    background-color: var(--color-royal-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+#secciones-p{
+    /* Estilos para los párrafos dentro de la sección */
+    background-color: var(--color-royal-blue);
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.num{
+    /* Estilos para los elementos numéricos */
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 50vh;
+}
+
+.mainc{
+    /* Estilos para los elementos principales */
+    height: 40vh;
+}
+
+.juegos{
+    /* Estilos para los elementos de juegos */
+    height: 16vh;
+}
+
+aside{
+    /* Estilos para el contenido lateral */
+    padding-top: 7vh;
+    background-color: var(--color-steel-blue);
+    height: 73vh;
+    width: 20vw;
+    text-align: center;
+}
+
+#mid{
+    /* Estilos para la sección media */
+    background-color: var(--color-soft-blue);
+    font-size: 20px;
+    padding-left: 1vh;
+    text-align: left;
+    width: 68vw;
+    height: 27.5vh;
+}
+
+#mid > .titulo{
+    /* Estilos para el título dentro de la sección media */
+    font-weight: bold;
+}
+
+footer{
+    /* Estilos para el pie de página */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-navy-blue);
+    color: white;
+    height: 5vh;
+}
+

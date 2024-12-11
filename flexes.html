@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>flexes</title> 
+    <link rel="stylesheet" href="./styles/styles_flex.css">
+</head>
+<body>
+    <header>
+        <h1>WOLFENSTEIN</h1> <!-- Título principal de la página, nombre del juego -->
+        <img src="./images/logo.png" alt="no puede ser cargada"> <!-- Imagen del logo del juego, con mensaje alternativo en caso de error de carga -->
+    </header>
+    
+    <main class="main">
+        <!-- Barra de navegación -->
+        <nav class="nav">
+            <a href="index.html" class="boton">Inicio</a> <!-- Enlace a la página principal -->
+            <a href="flexes.html" class="boton">Flex</a> <!-- Enlace a la página actual -->
+            <a href="formularios.html" class="boton">Formularios</a> <!-- Enlace a la página de formularios -->
+            <a href="animacion.html" class="boton">Animación</a> <!-- Enlace a la página de animación -->
+        </nav>
+
+        <section class="articulos">
+            <!-- Sección de personajes principales -->
+            <article id="secciones-p">
+                <p>Personajes principales</p> <!-- Título de la sección -->
+                <section id="secciones">
+                    <article class="num">
+                        <img src="./images/Blazkowicz.png" class="mainc"> <!-- Imagen del personaje Blazkowicz -->
+                        <figcaption>Blazkowicz</figcaption> <!-- Nombre del personaje debajo de la imagen -->
+                    </article>
+                    <article class="num">
+                        <img src="./images/anna.png" class="mainc"> <!-- Imagen del personaje Anya -->
+                        <figcaption>Anya</figcaption> <!-- Nombre del personaje debajo de la imagen -->
+                    </article>
+                    <article class="num">
+                        <img src="./images/Horton.png" class="mainc"> <!-- Imagen del personaje Horton -->
+                        <figcaption>Horton</figcaption> <!-- Nombre del personaje debajo de la imagen -->
+                    </article>
+                </section>
+            </article>
+
+            <!-- Sección de texto con información sobre el juego -->
+            <article id="mid">
+                <p>Estos son juegos que he jugado y me han resultado muy interesantes </p> <!-- Introducción -->
+                <p class="titulo">Wolfenstein:</p> <!-- Título secundario para el nombre del juego -->
+                <p>
+                    Es una serie de videojuegos de historia alternativa de la Segunda Guerra
+                    Mundial desarrollados originalmente por Muse Software.
+                    La mayoría de los juegos siguen a William "B.J." Blazkowicz, un 
+                    capitán del ejército estadounidense, y su lucha contra las potencias del Eje.
+                    Los títulos anteriores se centran en los intentos nazis de aprovechar fuerzas sobrenaturales y ocultas, 
+                    mientras que los juegos posteriores se desarrollan después de que los nazis implementaron con éxito 
+                    varias tecnologías de ciencia ficción para lograr la victoria en la Segunda Guerra Mundial.
+                </p> <!-- Breve descripción de la serie de videojuegos "Wolfenstein" -->
+            </article>
+        </section>
+
+        <!-- Sección de imágenes de otros juegos -->
+        <aside>
+            <section class="derecha">
+                <img src="./images/old_blood.jpg" class="juegos"> <!-- Imagen del juego "The Old Blood" -->
+            </section>
+            <section class="derecha">
+                <img src="./images/new_order.jpg" class="juegos"> <!-- Imagen del juego "The New Order" -->
+            </section>
+            <section class="derecha">
+                <img src="./images/wolfII.jpg" class="juegos"> <!-- Imagen del juego "Wolfenstein II" -->
+            </section>
+            <section class="derecha">
+            </section>
+            <section class="derecha">
+                <img src="./images/Youngblood.png" class="juegos"> <!-- Imagen del juego "Youngblood" -->
+            </section>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy;Todos los derechos reservados.</p> <!-- Pie de página con mensaje de derechos reservados -->
+    </footer>
+</body>
+</html>
